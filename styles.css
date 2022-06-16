@@ -17,7 +17,7 @@ body {
 }
 
 #hero {
-    background: url("images/cape-town.jpg");
+    background: url("cape-town.jpg");
     background-size: cover;
     background-position: center;
     padding: 100px;
