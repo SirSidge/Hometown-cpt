@@ -1,0 +1,88 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero {
+    background: url("images/cape-town.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#title-hero {
+    color: #F1FAEE;
+    background: #457B9D;
+    text-shadow: 0 0 1px black;
+    border-radius: 6px;
+    padding: 4px 12px;
+    margin: 0px 0 0px 0;
+}
+
+#description-hero {
+    color: #F1FAEE;
+    background: #1D3557;
+    text-shadow: 0 0 1px black;
+    border-radius: 6px;
+    padding: 4px 12px;
+    margin: 20px 0 100px 0;
+    max-width: 550px;
+}
+
+#content {
+    background: linear-gradient(#A8DADC, #1D3557);
+    width: 100%;
+}
+
+#activities-header {
+    width: 100%;
+}
+
+#activities-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 22% 0 22%;
+}
+
+.activities-img {
+    margin: 0 10px 0 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #A8DADC;
+}
+
+.activities-img:hover {
+    width: 210px;
+    height: 210px;
+}
+
+#guide {
+    display: flex;
+    width: 600px;
+    margin: 40px auto 40px auto;
+    background: #457B9D;
+    border: 2px solid #A8DADC;
+}
+
+#guide-avatar {
+    width: 160px;
+    margin: 10px;
+}
